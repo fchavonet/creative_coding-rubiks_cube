@@ -1,3 +1,4 @@
+/* DAISYUI */
 @plugin "daisyui" {
     themes: light --default, black;
 }
@@ -9,4 +10,13 @@
 
 .tooltip::after {
     display: none !important;
+}
+
+/* MAIN */
+canvas {
+    cursor: grab;
+}
+
+canvas:active {
+    cursor: grabbing;
 }
